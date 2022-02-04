@@ -55,8 +55,32 @@ save.addEventListener("click",()=>{
     });
 });
 
-li.append(save,titleInput,quantityInput)
+// going for bonus 
+let removeBtn = document.createElement("button")
+removeBtn.textContent = "remove"
+
+removeBtn.addEventListener("click",()=>{
+    fetch(`http://localhost:3001/removeBook/{${JSON.stringify(book.Id)}}`,{
+        method: "DELETE",
+        headers: {"Content-Type":"application/json",},
+    
+   
+    
+    });
+});
+
+
+
+li.append(save,titleInput,quantityInput,removeBtn)
 root.append(li);
+
+
+
+
+
+
+
+
 }
 
 

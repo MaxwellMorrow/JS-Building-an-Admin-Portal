@@ -10,10 +10,10 @@
     },
     {
       "id": 2,
-      "title": "Tess the Wonder Dog",
+      "title": "Marcy the Wonder Dog",
       "description": "The tale of a dog who gets super powers",
       "year": 2007,
-      "quantity": "3",
+      "quantity": "1000000",
       "imageURL": "/assets/tess.jpg"
     },
     {
