@@ -24,5 +24,7 @@ function renderBook(book) {
         </div>
     `
 }
-
+async function updateBook(){
+    let res = fetch()
+}
 main()
